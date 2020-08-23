@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <!--
 **Amorpheuz/Amorpheuz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -14,3 +12,12 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+![](https://github.com/Amorpheuz/Amorpheuz/blob/master/assets/banner.gif)
+
+<p align='center'>
+  <a href=""><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/twitter-square.svg" height="64px"/></a>
+  <a href=""><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/dev.svg" height="64px"/></a>
+  <a href=""><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/linkedin.svg" height="64px"/></a>
+  <br/>
+  <strong>Hey there 👋🏽</strong>
+</p>
