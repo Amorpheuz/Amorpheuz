@@ -24,4 +24,14 @@ Here are some ideas to get you started:
     <strong></strong>
   </p> 
 -->
-### Hey there 👋🏽
+[![Link to my website](https://github.com/Amorpheuz/Amorpheuz/blob/master/assets/banner.gif)](https://amorpheuz.dev/)
+ <p align='center'>
+    <a href="https://twitter.com/amorpheuz"><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/twitter-square.svg" height="56px"/></a>
+    <a href="https://dev.to/amorpheuz"><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/dev.svg" height="56px"/></a>
+    <a href="https://www.linkedin.com/in/amorpheuz/"><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/linkedin.svg" height="56px"/></a>
+    <br/>
+  </p> 
+
+<p align='center'>
+ <strong> Hey there 👋🏽 </strong>
+</p>
