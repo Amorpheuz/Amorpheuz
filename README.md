@@ -14,6 +14,7 @@ Here are some ideas to get you started:
 -->
 ![](https://github.com/Amorpheuz/Amorpheuz/blob/master/assets/banner.gif)
 
+## <img src="https://github.com/Amorpheuz/Amorpheuz/blob/master/assets/Socials.png" height="48px" alt="Connect with me"/>
 <p align='center'>
   <a href="https://twitter.com/amorpheuz"><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/twitter-square.svg" height="64px"/></a>
   <a href="https://dev.to/amorpheuz"><img src="https://raw.githubusercontent.com/icons8/line-awesome/master/svg/dev.svg" height="64px"/></a>
