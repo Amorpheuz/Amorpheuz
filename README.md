@@ -38,3 +38,5 @@ Here are some ideas to get you started:
 <p align='center'>
  <strong> Hey there 👋🏽 </strong>
 </p>
+![Metrics](https://github.com/amorpheuz/amorpheuz/blob/master/github-metrics.svg)
+
