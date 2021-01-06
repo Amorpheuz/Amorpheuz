@@ -27,5 +27,4 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 4
           plugin_posts: yes
-          plugin_posts_source: amorpheuz
           plugin_gists: yes
