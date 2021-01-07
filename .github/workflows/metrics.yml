@@ -34,7 +34,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Calcutta
-          config_padding: 5%
+          config_padding: 10%
   
   star-metrics:
     runs-on: ubuntu-latest
@@ -61,6 +61,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           base: ""
+          user: amorpheuz
           template: classic
           config_timezone: Asia/Calcutta
           plugin_posts: yes
