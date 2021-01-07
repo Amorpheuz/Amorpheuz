@@ -19,10 +19,41 @@ jobs:
           config_timezone: Asia/Calcutta
           plugin_languages: yes
           plugin_languages_ignored: HTML,CSS
+  
+  work-github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: personal info
+        uses: amorpheuz/metrics@latest
+        with:
+          filename: work.svg
+          token: ${{ secrets.WORK_METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          user: yash-bitpod
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Calcutta
+          plugin_languages: yes
+          plugin_languages_ignored: HTML,CSS
+  
+  star-metrics:
+    runs-on: ubuntu-latest
+    steps:          
+      - name: website info
+        uses: amorpheuz/metrics@latest
+        with:
+          filename: stars.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+          template: classic
+          base: ""
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 5
           plugin_gists: yes
   
+  post-metrics:
+    runs-on: ubuntu-latest
+    steps:
       - name: posts info
         uses: amorpheuz/metrics@latest
         with:
@@ -34,7 +65,10 @@ jobs:
           config_timezone: Asia/Calcutta
           plugin_posts: yes
           plugin_posts_source: dev.to
-          
+  
+  website-metrics:
+    runs-on: ubuntu-latest
+    steps:          
       - name: website info
         uses: amorpheuz/metrics@latest
         with:
@@ -43,6 +77,5 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
           template: classic
           base: ""
-          config_timezone: Asia/Calcutta
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
