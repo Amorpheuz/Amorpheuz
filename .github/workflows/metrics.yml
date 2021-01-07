@@ -19,6 +19,7 @@ jobs:
           config_timezone: Asia/Calcutta
           plugin_languages: yes
           plugin_languages_ignored: HTML,CSS
+          config_padding: 3%
   
   work-github-metrics:
     runs-on: ubuntu-latest
@@ -33,8 +34,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Calcutta
-          plugin_languages: yes
-          plugin_languages_ignored: HTML,CSS
+          config_padding: 3%
   
   star-metrics:
     runs-on: ubuntu-latest
@@ -50,6 +50,7 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 5
           plugin_gists: yes
+          config_padding: 6%
   
   post-metrics:
     runs-on: ubuntu-latest
