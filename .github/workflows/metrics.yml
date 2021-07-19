@@ -20,20 +20,20 @@ jobs:
           plugin_notable: yes
           config_padding: 13%
   
-  work-github-metrics:
-    runs-on: ubuntu-latest
-    steps:
-      - name: personal info
-        uses: amorpheuz/metrics@latest
-        with:
-          filename: work.svg
-          token: ${{ secrets.WORK_METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          user: yash-bitpod
-          template: classic
-          base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Calcutta
-          config_padding: 13%
+#   work-github-metrics:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: personal info
+#         uses: amorpheuz/metrics@latest
+#         with:
+#           filename: work.svg
+#           token: ${{ secrets.WORK_METRICS_TOKEN }}
+#           committer_token: ${{ secrets.GITHUB_TOKEN }}
+#           user: yash-bitpod
+#           template: classic
+#           base: header, activity, community, repositories, metadata
+#           config_timezone: Asia/Calcutta
+#           config_padding: 13%
   
   star-metrics:
     runs-on: ubuntu-latest
